@@ -1,0 +1,5 @@
+set sysroot C:/Files/Programs/TizenStudio/SDK/platforms/tizen-5.5/wearable/rootstraps/wearable-5.5-device.core
+set debug-file-directory C:/Files/Programs/TizenStudio/SDK/platforms/tizen-5.5/wearable/rootstraps/wearable-5.5-device.core/usr/lib/debug
+set solib-search-path C:/Files/Programs/TizenStudio/Workspace/ContactExtractor/Debug
+dir C:/Files/Programs/TizenStudio/SDK/platforms/tizen-5.5/wearable/rootstraps/wearable-5.5-device.core/usr/src/debug
+sharedlibrary

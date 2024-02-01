@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.5" package="cc.owow.contactextractor" version="1.0.0">
+    <author email="i@0v0.rs">TurboHsu</author>
+    <profile name="wearable"/>
+    <ui-application appid="cc.owow.contactextractor" exec="contactextractor" multiple="false" nodisplay="false" taskmanage="true" type="capp">
+        <label>contactextractor</label>
+        <icon>contactextractor.png</icon>
+    </ui-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/mediastorage</privilege>
+        <privilege>http://tizen.org/privilege/contact.read</privilege>
+        <privilege>http://tizen.org/privilege/callhistory.read</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage.appdata</privilege>
+        <privilege>http://tizen.org/privilege/externalstorage</privilege>
+    </privileges>
+</manifest>
